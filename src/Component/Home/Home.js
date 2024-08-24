@@ -266,7 +266,7 @@ return (
 <div id="customer">
       <div id="customer1">
                 <div id="customer-indside-div-1">
-                     <h2 id="customer-inside1-div1"><u id="homechef-inside-u1">What Our</u>  <u id="homechef-inside-u2">Customer's Say</u></h2>
+                     <h2 id="customer-inside1-div1"><u id="customer-inside-u1">What Our</u>  <u id="customer-inside-u2">Customer's Say</u></h2>
                      <div id="customer-inside1-div2">
         <p id="customer-para"> See What the customer say about our services, dishes and also about restarunt. We added feedback from our happy client's.</p>
        </div>
