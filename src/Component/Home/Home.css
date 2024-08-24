@@ -1681,3 +1681,75 @@
     font-family: "Lexend", sans-serif;
     border-radius: 10px;
 }
+
+@media (max-width:920px){
+   #home-contact-section1{
+      display: none;
+   }
+}
+
+@media (max-width: 469px){
+
+    #home_contact_section_form_input1{
+        width: 350px;
+    }
+
+    #home_contact_section_form_input2{
+        width: 350px;
+    }
+
+    #home_contact_section_form_input3{
+        width: 350px;
+    }
+
+     #home_contact_section_form_input4{
+        width: 350px;
+    }
+
+
+}
+
+@media (max-width: 387px){
+
+    #home_contact_section_form_input1{
+        width: 300px;
+    }
+
+    #home_contact_section_form_input2{
+        width: 300px;
+    }
+
+    #home_contact_section_form_input3{
+        width: 300px;
+    }
+
+     #home_contact_section_form_input4{
+        width: 300px;
+    }
+
+}
+
+
+@media (max-width: 335px){
+
+    #home_contact-section-h3{
+        font-size: 28px;
+    }
+
+    #home_contact_section_form_input1{
+        width: 250px;
+    }
+
+    #home_contact_section_form_input2{
+        width: 250px;
+    }
+
+    #home_contact_section_form_input3{
+        width: 250px;
+    }
+
+     #home_contact_section_form_input4{
+        width: 250px;
+    }
+
+}

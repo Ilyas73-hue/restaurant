@@ -3,7 +3,7 @@
 
 
 #bottom{
-    height: 10vh;
+    /* height: 10vh; */
 
     /* background-color: black; */
 }
@@ -80,6 +80,13 @@
     #bottom3{
         margin-right: 0px;
     }
+
+    #bottom1{
+        height: 15vh;
+        background: linear-gradient(to right bottom,rgba(255,255,255,0.1), rgba(255,255,255,0.1));
+        backdrop-filter: blur(25px);
+        -webkit-backdrop-filter: blur(25px);
+    }
 }
 
 @media (max-width: 458px){
@@ -89,8 +96,10 @@
     #bottom-p{
         text-align: center;
     }
-    #bottom{
-        height: 12vh;
-        background-color: black;
+    #bottom1{
+        height: 15vh;
+        background: linear-gradient(to right bottom,rgba(255,255,255,0.1), rgba(255,255,255,0.1));
+        backdrop-filter: blur(25px);
+        -webkit-backdrop-filter: blur(25px);
     }
 }
