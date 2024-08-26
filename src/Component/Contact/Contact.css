@@ -31,45 +31,30 @@
 
 /* content2 */
 
-#contact3{
-   display: flex;
-   flex-direction: row;
-   padding-bottom: 20px;
-   justify-content: space-between;
+#contact-row{
+    margin-bottom: 20px;
 }
+
 
 #contact-div-1{
     background-color: white;
-    width: 400px;
     padding: 10px;
     display:  flex;
     flex-direction: row;
     align-items: center;
-  justify-content: space-evenly;
+    justify-content: flex-start;
   border-radius: 4px;
-    /* gap: 30px; */
 }
 
-#contact-div-1-1{
-    background-color: #EF5008;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 100%;
-    padding: 10px;
-}
 
-#contact_loaction_icon{
-    color: white;
-    font-size: 20px;
+
+#contact-div-1-2{
+    margin-left: 10px;
 }
 
 #contact-h3-address{
     margin-top: 15px;
-    color: black;
+    color:  #EF5008;
     font-size: 18px;
     font-family: "Poppins", sans-serif;
 }
@@ -83,41 +68,24 @@
 
 #contact-div-2{
     background-color: white;
-    width: 400px;
     padding: 10px;
     display:  flex;
     flex-direction: row;
     align-items: center;
-  justify-content: space-around;
+    justify-content: flex-start;
   border-radius: 4px;
-    /* gap: 30px; */
 }
 
-#contact-div-1-3{
-    background-color: #EF5008;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 100%;
-    padding: 10px;
-    margin-left: -140px;
-}
 
 #contact-div-1-4{
-    margin-left: -300px;
+    margin-left: 10px;
 }
 
-#contact_phone_icon{
-    color: white;
-    font-size: 20px;
-}
+
 
 #contact-h3-phone{
     margin-top: 15px;
-    color: black;
+    color: #EF5008;
     font-size: 18px;
     font-family: "Poppins", sans-serif;
 }
@@ -131,41 +99,25 @@
 
 #contact-div-3{
     background-color: white;
-    width: 400px;
     padding: 10px;
     display:  flex;
     flex-direction: row;
     align-items: center;
-  justify-content: space-around;
+ justify-content: flex-start;
   border-radius: 4px;
 }
 
 
-#contact-div-1-5{
-    background-color: #EF5008;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 100%;
-    padding: 10px;
-    margin-left: -90px;
-}
 
 #contact-div-1-6{
-    margin-left: -195px;
+  margin-left: 10px;
 }
 
-#contact_time_icon{
-    color: white;
-    font-size: 20px;
-}
+
 
 #contact-h3-time{
     margin-top: 15px;
-    color: black;
+    color: #EF5008;
     font-size: 18px;
     font-family: "Poppins", sans-serif;
 }
@@ -188,6 +140,17 @@
     gap: 20px;
 }
 
+#contact-form-card{
+    background-color: transparent;
+    border: none;
+}
+
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #content3-span-contract3{
     display: flex;
     flex-direction: row;
@@ -197,7 +160,7 @@
 
 #content3--contact-input-text1{
     font-family: "Poppins", sans-serif;
-    width: 620px;
+    /* width: 620px; */
     padding: 10px;
     padding-left: 20px;
     border-radius: 5px;
@@ -210,7 +173,7 @@
 
 #content3--contact-input-phone1{
     font-family: "Poppins", sans-serif;
-    width: 620px;
+    /* width: 620px; */
     padding: 10px;
     padding-left: 20px;
     border-radius: 5px;
@@ -221,7 +184,7 @@
 
 ::placeholder{
     font-family: "Poppins", sans-serif;
-    color: white;
+    color: white !important;
     font-size: 16px;
     font-weight: 600;
 }
@@ -256,11 +219,12 @@
     background-color: #EF5008;
     color: white;
     font-size: 17px;
-    font-family: 700px;
+    font-weight: 600;
     padding: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
     font-family: "Poppins", sans-serif;
     border-radius: 5px;
     margin-bottom: 20px;
 }
+

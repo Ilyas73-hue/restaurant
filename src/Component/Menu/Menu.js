@@ -60,13 +60,6 @@ const Api = [{
 ];
 
 
-  //  const remove = (array) => {
-  //   return array.map((item) => (
-  //       [item.variety]
-  //   ))
-  //  }
-
-  //  remove(Api);
 
 
 const data =   Api.filter((filter) => filter.variety)
@@ -102,7 +95,7 @@ console.log(data)
             <h2 id="menu-head-h2">Our <u id="menu-head-h2-1">Menu</u></h2>
             <p id="menu-para"> We offer quality food chart and help our customers maintain a healthy food habit. Your health security is our first priority as we never compromise with food quality.</p>
         </section>
-        <section className='container' id="section_menu_3">
+        {/* <section className='container' id="section_menu_3">
            <ul id="menu_list_ul">
            <li id="menu_list_li">Starters</li>
            <li id="menu_list_li">Sandvich</li>
@@ -111,7 +104,7 @@ console.log(data)
            <li id="menu_list_li">Noodles</li>
            <li id="menu_list_li">Rice</li>
            </ul>
-        </section>
+        </section> */}
         <section className='container' id="section_menu_4">
         <div className='row gy-4 md-4' id="menu-row">
             {

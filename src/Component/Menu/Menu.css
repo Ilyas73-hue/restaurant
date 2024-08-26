@@ -83,6 +83,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 #menu-head-h2{
@@ -315,7 +316,7 @@ flex-direction: row;
   gap: 10px;
     }
     
-    #menu-box-li{
+    #menu_list_li{
         list-style: none;
         font-size: 15px;
         color: white;
@@ -357,6 +358,8 @@ flex-direction: row;
     }
 }
 
+
+
 @media (max-width: 635px){
     #menu-para{
         width: 550px;
@@ -371,6 +374,18 @@ align-content: center;
 justify-content: center;
   gap: 10px;
   
+    }
+}
+
+@media (max-width: 570px){
+    #menu-box-li{
+        list-style: none;
+        font-size: 15px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        border: 2px solid #EF5008;
+        padding: 10px;
+        border-radius: 10px;
     }
 }
 
