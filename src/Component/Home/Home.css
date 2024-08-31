@@ -1289,10 +1289,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 100px;
 }
 
 #customer-inside-u1{
-   
     text-decoration: none;
     color: #EF5008;
     font-size: 30px;
@@ -1363,6 +1363,7 @@
    
 }
 
+
 #customer-para{
     font-size: 15px;
     color: white;
@@ -1372,13 +1373,16 @@
     width: 820px;
 }
 
-#customer-para1{
+/* #customer-para1{
     font-size: 15px;
     color: white;
     font-family: "Poppins", sans-serif;
     margin-top: -10px;
-}
+} */
 
+#customer-inside-div-2{
+    padding-bottom: 100px;
+}
 
 
 #customer-card{  
@@ -1398,13 +1402,15 @@
 }
 
 #scroll{
-    position: relative;
+    /* position: relative; */
     display: flex;
     width: 1040px;
     overflow: hidden;
-    -webkit-mask-image: linear-gradient(90deg, transparent, black 20%, black 80%, transparent);
+    -webkit-mask-image: linear-gradient(90deg);
     animation: scroll;
 }
+
+/* , transparent, black 20%, black 80%, transparent */
 
  #scroll #row{
     animation: scroll 20s linear infinite;
@@ -1658,168 +1664,441 @@
     }
 }
 
-/* Home Contact Us */
 
-#home_contact_us1{
-    margin-bottom: 30px;
+ 
+/* Home Book Table */
+
+#home-book-table{
+    padding-bottom: 40px;
+}
+
+#home-book-table-1{
+    width: 100%;
+    background-color: white;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.1), rgba(255,255,255,0.1));
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: space-around;
 }
 
-
-
-#home-contact-image{
-    height: 400px;
-    width: 400px;
+#home-book-form-div{
+    width: 70%;
 }
 
-#home_contact-section-h3{
-    font-size: 35px;
-    font-weight: 600;
-    color: white;
-    font-family: "Lexend", sans-serif;
-}
-
-#home-contact-section2{
+#book-table-form{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 30px;
+   padding: 50px;
 }
 
-#home_contact-section-form{
+#home-book-table-h6{
+    color: #EF5008;
+    font-family: "Poppins", sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+   
+}
+
+#home-book-input-div1{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+    flex-direction: row;
+   justify-content: space-between;
 }
 
-#home_contact_section_form_input1{
-    font-family: "Poppins", sans-serif;
-    width: 400px;
-    height: 40px;
-    padding-left: 20px;
+
+#home-book-input-1{
     background-color: transparent;
     border: none;
-    color: white;
-    border: 2px solid #EF5008;
-}
-
-
-#home_contact_section_form_input2{
+    border-bottom: 3px solid #FFFFFF;
+    width: 350px;
+    color: #FFFFFF;
     font-family: "Poppins", sans-serif;
-    width: 400px;
-    height: 40px;
-    padding-left: 20px;
-    background-color: transparent;
-    border: none;
-    color: white;
-    border: 2px solid #EF5008;
-}
-
-#home_contact_section_form_input3{
-    font-family: "Poppins", sans-serif;
-    width: 400px;
-    height: 40px;
-    padding-left: 20px;
-    background-color: transparent;
-    border: none;
-    color: white;
-    border: 2px solid #EF5008;
-}
-#home_contact_section_form_input4{
-    font-family: "Poppins", sans-serif;
-    width: 400px;
-    height: 100px;
-    padding-left: 20px;
-    background-color: transparent;
-    border: none;
-    color: white;
-    border: 2px solid #EF5008;
-}
-
-#home_contact_section_submit{
-    /* width: 30px; */
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 600;
+}
+
+#home-book-input-2{
+    background-color: transparent;
     border: none;
+    border-bottom: 3px solid #FFFFFF;
+    width: 350px;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#home-book-input-div2{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+}
+
+
+#home-book-input-3{
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #FFFFFF;
+    width: 350px;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#home-book-input-4{
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #FFFFFF;
+    width: 350px;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#home-book-input-div3{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+}
+
+
+
+#home-book-input-5{
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #FFFFFF;
+    width: 350px;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+#home-book-input-6{
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #FFFFFF;
+    width: 350px;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+#home-book-button{
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    border: 2px solid #EF5008;
+    width: 150px;
+    background-color: transparent;
+    color: #EF5008;
+    font-weight: 600;
+    padding: 10px;
+}
+
+#home-book-button:hover{
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    border: 2px solid #EF5008;
+    width: 150px;
     background-color: #EF5008;
     color: white;
-    font-family: "Lexend", sans-serif;
-    border-radius: 10px;
+    font-weight: 600;
+    padding: 10px;
 }
+
+#home-book-img-div{
+    width: 30%;
+}
+
+#home-book-img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    margin-left: 11px;
+    border-left: 5px solid #EF5008;
+}
+
+
 
 @media (max-width:920px){
-   #home-contact-section1{
-      display: none;
-   }
+    #home-book-form-div{
+        width: 80%;
+    }
+
+
+    #book-table-form{
+      padding: 0px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+
+    #home-book-input-1{
+        width: 220px;
+    }
+
+    #home-book-input-2{
+        width: 220px;
+    }
+
+    
+    #home-book-input-3{
+        width: 220px;
+    }
+
+    #home-book-input-4{
+        width: 220px;
+    }
+
+    
+    #home-book-input-5{
+        width: 220px;
+    }
+
+    #home-book-input-6{
+        width: 220px;
+    }
+
+    #home-book-img-div{
+        display: none;
+    }
 }
 
-@media (max-width: 469px){
+@media (max-width: 720px){
+    #home-book-form-div{
+        width: 80%;
+    }
+    #book-table-form{
+        padding: 10px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+    #home-book-input-div1{
+    flex-direction: column;
+    gap: 20px;
+    }
 
-    #home_contact_section_form_input1{
+    #home-book-input-div2{
+        flex-direction: column;
+        gap: 20px;
+        }
+        #home-book-input-div3{
+            flex-direction: column;
+            gap: 20px;
+            }
+
+    #home-book-input-1{
         width: 350px;
     }
 
-    #home_contact_section_form_input2{
+    #home-book-input-2{
         width: 350px;
     }
 
-    #home_contact_section_form_input3{
+    #home-book-input-3{
         width: 350px;
     }
 
-     #home_contact_section_form_input4{
+    #home-book-input-4{
+        width: 350px;
+    }
+
+    #home-book-input-5{
+        width: 350px;
+    }
+
+    #home-book-input-6{
+        width: 350px;
+    }
+}
+
+@media (max-width: 575px){
+    #home-book-form-div{
+        width: 80%;
+    }
+
+    #book-table-form{
+        padding: 0px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+
+      #home-book-input-1{
+        width: 400px;
+    }
+
+    #home-book-input-2{
+        width: 400px;
+    }
+
+    #home-book-input-3{
+        width: 400px;
+    }
+
+    #home-book-input-4{
+        width: 400px;
+    }
+
+    #home-book-input-5{
+        width: 400px;
+    }
+
+    #home-book-input-6{
+        width: 400px;
+    }
+}
+
+
+@media (max-width: 518px){
+    #home-book-form-div{
+        width: 80%;
+    }
+
+    #book-table-form{
+        padding: 0px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+
+      #home-book-input-1{
+        width: 350px;
+    }
+
+    #home-book-input-2{
+        width: 350px;
+    }
+
+    #home-book-input-3{
+        width: 350px;
+    }
+
+    #home-book-input-4{
+        width: 350px;
+    }
+
+    #home-book-input-5{
+        width: 350px;
+    }
+
+    #home-book-input-6{
         width: 350px;
     }
 
 
 }
 
-@media (max-width: 387px){
+@media (max-width: 465px){
+    #home-book-form-div{
+        width: 80%;
+    }
 
-    #home_contact_section_form_input1{
+    #book-table-form{
+        padding: 0px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+
+      #home-book-input-1{
         width: 300px;
     }
 
-    #home_contact_section_form_input2{
+    #home-book-input-2{
         width: 300px;
     }
 
-    #home_contact_section_form_input3{
+    #home-book-input-3{
         width: 300px;
     }
 
-     #home_contact_section_form_input4{
+    #home-book-input-4{
         width: 300px;
     }
 
+    #home-book-input-5{
+        width: 300px;
+    }
+
+    #home-book-input-6{
+        width: 300px;
+    }
 }
 
-
-@media (max-width: 335px){
-
-    #home_contact-section-h3{
-        font-size: 28px;
+@media (max-width: 396px){
+    #home-book-form-div{
+        width: 80%;
     }
 
-    #home_contact_section_form_input1{
+    #book-table-form{
+        padding: 0px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+
+      #home-book-input-1{
         width: 250px;
     }
 
-    #home_contact_section_form_input2{
+    #home-book-input-2{
         width: 250px;
     }
 
-    #home_contact_section_form_input3{
+    #home-book-input-3{
         width: 250px;
     }
 
-     #home_contact_section_form_input4{
+    #home-book-input-4{
         width: 250px;
     }
 
+    #home-book-input-5{
+        width: 250px;
+    }
+
+    #home-book-input-6{
+        width: 250px;
+    }
+}
+
+@media (max-width: 343px){
+    #home-book-form-div{
+        width: 80%;
+    }
+
+    #book-table-form{
+        padding: 0px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+
+      #home-book-input-1{
+        width: 200px;
+    }
+
+    #home-book-input-2{
+        width: 200px;
+    }
+
+    #home-book-input-3{
+        width: 200px;
+    }
+
+    #home-book-input-4{
+        width: 200px;
+    }
+
+    #home-book-input-5{
+        width: 200px;
+    }
+
+    #home-book-input-6{
+        width: 200px;
+    }
 }

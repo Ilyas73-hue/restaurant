@@ -3,6 +3,7 @@ import "./Contact.css";
 
 
 function Contact() {
+  
   return (
     <div id="contact">
         <div className='container' id="contact1">
@@ -56,23 +57,24 @@ function Contact() {
            <div id="content3-contact1">
                <div id="content3-contact2">
                   <div class="card" id="contact-form-card">
-                    <form id="contact-form">
+                    <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="7883f0dc-fb27-4280-93d7-6260293f96fa" value="7883f0dc-fb27-4280-93d7-6260293f96fa" />
                   <div class="row g-3">
-
+                  
   <div class="col-6">
-  <input class="form-control" id="content3--contact-input-text1" type="text" placeholder='Your Name' />
+  <input class="form-control" id="content3--contact-input-text1" type="text" name="Your Name" placeholder='Your Name' required/>
   </div>
   <div class="col-6">
-  <input  class="form-control" id="content3--contact-input-phone1" type="number" placeholder='Phone Number' />
+  <input  class="form-control" id="content3--contact-input-phone1" type="number" name="Phone Number" placeholder='Phone Number' required/>
   </div>
   <div class="col-12">
-  <input className='form-control' id="content3--contact-input-text2" type="text" placeholder='Address' />
+  <input className='form-control' id="content3--contact-input-text2" type="text" name="Address" placeholder='Address' required/>
   </div>
   <div class="col-12 mb-4">
-  <textarea class="form-control" id="content3--contact-input-text3" type="text" placeholder='Message'></textarea>
+  <textarea class="form-control" id="content3--contact-input-text3" type="text" name="Message" placeholder='Message' required></textarea>
   </div>
 </div>
-<button id="content3--contact-input-button">Submit</button>
+<button type="submit" id="content3--contact-input-button">Submit</button>
 </form>
                   </div>
                </div>
