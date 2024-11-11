@@ -8,6 +8,8 @@ import Bottom from "./Component/Bottom/Bottom";
 import Menu from "./Component/Menu/Menu";
 import Chef from "./Component/Chef/Chef";
 import Contact from "./Component/Contact/Contact";
+import Menudemo from "./Component/Menudemo/Menudemo";
+import Branches from "./Component/Branches/Branches";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route exact path="/menu" component={Menu} />
         <Route exact path="/chef" component={Chef} />
         <Route exact path="/contact" component={Contact} />
+        <Route exact path="/menudemo" component={Menudemo} />
+        <Route exact path="/branches" component={Branches} /> 
       </Switch>
       <Footer />
       <Bottom />

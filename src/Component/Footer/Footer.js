@@ -1,8 +1,10 @@
 import React from 'react';
 import "./Footer.css";
 import { FaFacebookF } from "react-icons/fa6";
-import { FaInstagram, FaTwitter, FaWhatsapp, FaHome, FaPhoneAlt } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+import { FaInstagram, FaTwitter, FaWhatsapp } from "react-icons/fa";
+import footer_logo_1 from "./resturant_logo_1.png";
+import footer_logo_2 from "./resturant_logo_2.png";
+import footer_logo_3 from "./resturant_logo_3.png";
 
 
 function Footer() {
@@ -12,7 +14,7 @@ function Footer() {
          <div id='footer-logo-content'>
            <div id="footer-line"></div>
               <div id="footer-div-1-1">
-                   <a className="footer-brand" id="footer-a" href="/"><a id='footer-ahref' href='/'>Chef's</a> <a id='footer-ahref1' href='/'>Kitchen</a></a>
+              <a className="footer-brand" id="footer-a" href="/"><img id="footer-img" src={footer_logo_1} alt={footer_logo_1} /> <img id="footer-img-1" src={footer_logo_2} alt={footer_logo_2} /> <img id="footer-img-2" src={footer_logo_3} alt={footer_logo_3} /> </a>
                    </div>
            <div id="footer-line"></div>
          </div>
@@ -53,3 +55,6 @@ function Footer() {
   )
 }
 export default Footer;
+
+
+// <a className="footer-brand" id="footer-a" href="/"><a id='footer-ahref' href='/'>Chef's</a> <a id='footer-ahref1' href='/'>Kitchen</a></a>
