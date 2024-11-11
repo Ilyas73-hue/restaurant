@@ -1686,27 +1686,27 @@ flex-direction: row;
       }
 
       #home-book-input-1{
-        width: 300px;
+        width: 100%;
     }
 
     #home-book-input-2{
-        width: 300px;
+        width: 100%;
     }
 
     #home-book-input-3{
-        width: 300px;
+        width: 100%;
     }
 
     #home-book-input-4{
-        width: 300px;
+        width: 100%;
     }
 
     #home-book-input-5{
-        width: 300px;
+        width: 100%;
     }
 
     #home-book-input-6{
-        width: 300px;
+        width: 100%;
     }
 }
 
@@ -1720,7 +1720,7 @@ flex-direction: row;
         padding-top: 40px;
         padding-bottom: 40px;
       }
-
+/* 
       #home-book-input-1{
         width: 250px;
     }
@@ -1743,7 +1743,7 @@ flex-direction: row;
 
     #home-book-input-6{
         width: 250px;
-    }
+    } */
 }
 
 @media (max-width: 343px){
@@ -1757,8 +1757,8 @@ flex-direction: row;
         padding-bottom: 40px;
       }
 
-      #home-book-input-1{
-        width: 200px;
+      /* #home-book-input-1{
+        width: 100%;
     }
 
     #home-book-input-2{
@@ -1779,5 +1779,5 @@ flex-direction: row;
 
     #home-book-input-6{
         width: 200px;
-    }
+    } */
 }
