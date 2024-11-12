@@ -1720,30 +1720,7 @@ flex-direction: row;
         padding-top: 40px;
         padding-bottom: 40px;
       }
-/* 
-      #home-book-input-1{
-        width: 250px;
-    }
 
-    #home-book-input-2{
-        width: 250px;
-    }
-
-    #home-book-input-3{
-        width: 250px;
-    }
-
-    #home-book-input-4{
-        width: 250px;
-    }
-
-    #home-book-input-5{
-        width: 250px;
-    }
-
-    #home-book-input-6{
-        width: 250px;
-    } */
 }
 
 @media (max-width: 343px){
@@ -1757,27 +1734,4 @@ flex-direction: row;
         padding-bottom: 40px;
       }
 
-      /* #home-book-input-1{
-        width: 100%;
-    }
-
-    #home-book-input-2{
-        width: 200px;
-    }
-
-    #home-book-input-3{
-        width: 200px;
-    }
-
-    #home-book-input-4{
-        width: 200px;
-    }
-
-    #home-book-input-5{
-        width: 200px;
-    }
-
-    #home-book-input-6{
-        width: 200px;
-    } */
 }

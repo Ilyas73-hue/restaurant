@@ -2037,13 +2037,12 @@ gap: 45px;
 /* Section 13 */
 
 #section13{ 
-  height:170vh;
   position: relative;
  }
      
  
  #section13-virdhunagar-logo{
-   height: 170vh;
+   height: 1028px;
    width: 100%;
    display: flex;
    justify-content: center;
@@ -2062,6 +2061,31 @@ gap: 45px;
    font-weight: 400;
    text-align: center;
  }
+
+ @media (max-width: 1025px){
+  #section13-virdhunagar-logo{
+      height: 1158px;
+  }
+ }
+
+ @media (max-width: 769px){
+  #section13-virdhunagar-logo{
+      height: 1091px;
+  }
+ }
+
+ @media (max-width: 426px){
+  #section13-virdhunagar-logo{
+      height: 971px;
+  }
+  #section13-virudhunagar-logo{
+      font-size: 40px;
+  }
+
+ }
+
+
+ /* Part 1 */
  
 
 #section13-menu-1{
@@ -2078,10 +2102,7 @@ gap: 45px;
 }
 
 
-/* #section13-menu-2{
-  display: flex;
-  flex-direction: column;
-} */
+
 
 #section13-menu-2-1{
   margin-top: 40px;
@@ -2332,13 +2353,8 @@ background-color: var(--primary-color);
 }
 
 @media (max-width: 1025px){
-  #section13{ 
-      height:140vh;
-  }
 
-  #section13-virdhunagar-logo{
-      height:140vh;
-  }
+
 
   #section13-menu-2-2-2-img{
       width: 320px;
@@ -2349,9 +2365,7 @@ background-color: var(--primary-color);
 
 @media(max-width: 1022px){
 
-  #section13{ 
-      height:160vh;
-  }
+
 
   #section13-menu-2-1-1{
       display: none;
@@ -2410,14 +2424,6 @@ background-color: var(--primary-color);
 
 
 @media (max-width: 768px){
-
-  #section13{ 
-      height:175vh;
-  }
-
-  #section13-virdhunagar-logo{
-      height:175vh;
-  }
 
   #section13-menu-2-1{
       justify-content: center;
@@ -2527,13 +2533,7 @@ background-color: var(--primary-color);
 
 @media (max-width: 430px){
 
-  #section13{ 
-      height:155vh;
-  }
 
-    #section13-virdhunagar-logo{
-      height:155vh;
-  }
 
 
   #section13-menu-1-h6{
@@ -2613,18 +2613,6 @@ background-color: var(--primary-color);
 }
 
 }
-
-
-
-
-@media (max-width: 375px){
-  #section13-virudhunagar-logo{
-      font-size: 50px;
-  }
-}
-
-
-
 
 
 
