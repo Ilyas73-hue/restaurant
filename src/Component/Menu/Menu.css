@@ -245,718 +245,402 @@ font-size: 40px;
 
 
 #section-4{
-    height: 170vh;
-    /* padding-top: 30px;
-    padding-bottom: 30px; */
-    position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
 }
 
-.section4-virdhunagar-logo{
-  height: 180vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: -1;
-  position: absolute;
+#section4-virdhunagar-logo{
+  height: 993px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: -1;
+position: absolute;
 }
 
 
 
 #virudhunagar-logo{
-  text-align: center;
-  color: var(--back-logo-color);
-  font-size: 60px;
-  font-family: var(--font2);
-  font-weight: 400;
-  text-align: center;
+text-align: center;
+color: var(--back-logo-color);
+font-size: 60px;
+font-family: var(--font2);
+font-weight: 400;
+text-align: center;
 }
 
-#section4-menu-7{
-  display: flex;
-  flex-direction: column;
+@media (max-width: 769px){
+  #section4-virdhunagar-logo{
+      height: 841px;
+  }
 }
 
+@media (max-width: 426px){
+  #section4-virdhunagar-logo{
+      height: 748px;
+  }
 
-#section4-menu7-1{
-    padding-top: 40px;
-   position: absolute;
-   z-index: 1;
-   display: flex;
-   flex-direction: row;
-     gap: 200px;
-     height: 60vh;
+  #virudhunagar-logo{
+      font-size: 40px;  
+  }
+
 }
 
-#section4-menu-7-4{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 650px;
+@media (max-width: 376px){
+  #section4-virdhunagar-logo{
+      height: 775px;
+  }
 }
 
-#section4-menu-7-5{
-    width: 650px;
-    height: 3px;
-    background-color: var(--primary-color);
+@media (max-width: 326px){
+  #section4-virdhunagar-logo{
+      height: 829px;
+  }
 }
 
-#section4-menu-7-8{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+/* Part 1 */
+
+
+#section-4-menu-1-1{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
 }
 
-#section4-menu-h6-1{
-    color: var(--secoundary-color);
-     font-family: var(--primary-text);
-     font-size: 28px;
-     font-weight: 600;
-}
-
-#section4-menu-h6-2{
-    color: var(--secoundary-color);
-    font-family: var(--primary-text);
-    font-size: 28px;
-    font-weight: 600;
-}
-
-
-#section4-menu-7-6{
+#section-4-menu-1-1-1{
   width: 650px;
+}
+
+#section-4-menu-1-1-1-1{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-#section4-menu-7-p1{
-    color: var(--secoundary-color);
-    font-family: var(--primary-text);
-    font-size: 23px;
-    font-weight: 500;
-    margin-top: 5px;
+#section-4-menu-1-1-1-1-1-h6-1{
+  color: var(--secoundary-color);
+  font-family: var(--primary-text);
+  font-size: 28px;
+  font-weight: 500;
 }
 
-#section5-menu-7-10{
-    display: flex;
-    flex-direction: row;
-    gap: 90px;
+#section-4-menu-1-1-1-1-2{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
 
-#section4-menu-7-p2{
-    color: var(--secoundary-color);
-    font-family: var(--primary-text);
-    font-size: 23px;
-    font-weight: 500;
-    margin-top: 5px;
-    margin-right: 10px;
+#section-4-menu-1-1-1-1-2-h6-1{
+  color: var(--secoundary-color);
+  font-family: var(--primary-text);
+  font-size: 28px;
+  font-weight: 500;
 }
 
-#section4-menu-7-img{
-    height: 50vh;
-    width: 500px;
+#section-4-menu-1-1-1-2{
+  height: 3px;
+  background-color: var(--primary-color);
 }
+
+#section-4-menu-1-1-1-3-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#section-4-menu-1-1-1-3-1-2{
+  display: flex;
+  flex-direction: row;
+  gap: 75px;
+}
+
+#section-4-menu-1-1-1-3-1-1-p-1{
+  color: var(--secoundary-color);
+  font-family: var(--primary-text);
+  font-size: 22px;
+  font-weight: 500;
+}
+
+#section-4-menu-1-1-1-3-1-2-p-1{
+  color: var(--secoundary-color);
+  font-family: var(--primary-text);
+  font-size: 22px;
+  font-weight: 500;
+}
+
 
 /* Part 2 */
 
-
-#section4-menu7-11{
-  margin-top: 440px;
-  z-index: 1;
-  padding-top: 40px;
-  position: absolute;
+#section-4-menu-1-2{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-    gap: 200px;
-    height: 60vh;
 }
 
-#section4-menu7-11-2-1{
+#section-4-menu-1-2-2{
+  width: 650px;
+}
+
+#section-4-menu-1-2-2-1{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 650px;
+  justify-content: space-between;   
 }
 
-#section4-menu7-11-2-1-1-1-h6-1{
-  color: var(--secoundary-color);
-   font-family: var(--primary-text);
-   font-size: 28px;
-   font-weight: 600;
-}
-
-
-#section4-menu7-11-2-1-2{
+#section-4-menu-1-2-2-1-2{
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 10px;
 }
 
-#section4-menu7-11-2-1-1-2-h6-2{
+#section-4-menu-1-2-2-1-1-h6-1{
   color: var(--secoundary-color);
-    font-family: var(--primary-text);
-    font-size: 28px;
-    font-weight: 600;
+  font-family: var(--primary-text);
+  font-size: 28px;
+  font-weight: 500; 
 }
 
-
-#section4-menu7-11-2-2{
-  width: 650px;
-    height: 3px;
-    background-color: var(--primary-color);
+#section-4-menu-1-2-2-1-2-h6-1{
+  color: var(--secoundary-color);
+  font-family: var(--primary-text);
+  font-size: 28px;
+  font-weight: 500; 
 }
 
-#section4-menu7-11-2-3{
-  width: 650px;
+#section-4-menu-1-2-2-2{
+  height: 3px;
+  background-color: var(--primary-color);
 }
 
-
-#section4-menu7-11-2-3-1{
+#section-4-menu-1-2-2-3-1{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-
-#section4-menu7-11-2-3-1-2{
+#section-4-menu-1-2-2-3-1-2{
   display: flex;
   flex-direction: row;
-  gap: 110px;
+  gap: 95px;
 }
 
-#section4-menu7-11-2-3-1-1-p-1{
+#section-4-menu-1-2-2-3-1-1-p-1{
   color: var(--secoundary-color);
   font-family: var(--primary-text);
-  font-size: 23px;
+  font-size: 22px;
   font-weight: 500;
-  margin-top: 5px;
 }
 
-#section4-menu7-11-2-3-1-1-p-2{
+#section-4-menu-1-2-2-3-1-2-p-1{
   color: var(--secoundary-color);
   font-family: var(--primary-text);
-  font-size: 23px;
+  font-size: 22px;
   font-weight: 500;
-  margin-top: 5px;
 }
-
 
 /* Part 3 */
 
 
-#section4-menu7-12{
-  margin-top: 800px;
-  z-index: 1;
-  padding-top: 40px;
-  position: absolute;
+#section-4-menu-1-3{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-    gap: 200px;
-    height: 60vh;
 }
 
-#section4-menu7-12-1-1{
-   width: 650px;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
+#section-4-menu-1-3-1{
+  width: 650px;
 }
 
-#section4-menu7-12-1-1-2{
+#section-4-menu-1-3-1-1{
   display: flex;
   flex-direction: row;
-  gap: 20px;
+ justify-content: space-between;
 }
 
-#section4-menu7-12-1-1-1-h6-1{
+
+#section-4-menu-1-3-1-1-2{
+  display: flex;
+  flex-direction: row;
+}
+
+
+#section-4-menu-1-3-1-1-1-h6-1{
   color: var(--secoundary-color);
   font-family: var(--primary-text);
   font-size: 28px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
-#section4-menu7-12-1-1-2-h6-2{
+#section-4-menu-1-3-1-1-2-h6-1{
   color: var(--secoundary-color);
   font-family: var(--primary-text);
   font-size: 28px;
-  font-weight: 600;
-}
-
-#section4-menu7-12-1-2{
-  width: 650px;
-    height: 3px;
-    background-color: var(--primary-color);
+  font-weight: 500;
 }
 
 
-#section4-menu7-12-1-3-1{
+#section-4-menu-1-3-1-2{
+  height: 3px;
+  background-color: var(--primary-color);
+}
+
+
+#section-4-menu-1-3-1-3-1{
   display: flex;
   flex-direction: row;
-  width: 650px;
   justify-content: space-between;
 }
 
-#section4-menu7-12-1-3-1-2{
+#section-4-menu-1-3-1-3-1-1-p-1{
+  color: var(--secoundary-color);
+  font-family: var(--primary-text);
+  font-size: 22px;
+  font-weight: 500;
+}
+
+
+#section-4-menu-1-3-1-3-1-2{
   display: flex;
   flex-direction: row;
-  gap: 105px;
 }
 
-#section4-menu7-12-1-3-1-1-p-1{
+
+#section-4-menu-1-3-1-3-1-2-p-1{
   color: var(--secoundary-color);
   font-family: var(--primary-text);
-  font-size: 23px;
+  font-size: 22px;
   font-weight: 500;
-  margin-top: 5px;
+  width: 105px;
 }
 
-#section4-menu7-12-1-3-1-2-p-1{
+
+#section-4-menu-1-3-1-3-1-2-p-2{
   color: var(--secoundary-color);
   font-family: var(--primary-text);
-  font-size: 23px;
+  font-size: 22px;
   font-weight: 500;
-  margin-top: 5px;
-  width: 45px;
-}
-
-#section4-menu7-12-1-3-1-2-p-2{
-  color: var(--secoundary-color);
-  font-family: var(--primary-text);
-  font-size: 23px;
-  font-weight: 500;
-  margin-top: 5px;
-  width: 45px;
-}
-
-@media (max-width: 1441px){
-
-  #section-4{
-    height: 134vh;
-  }
-
-  .section4-virdhunagar-logo{
-  height: 95vh;
-  }
-
-  #section4-menu-7-img{
-    height: 100%;
-    width: 500px;
-}
+  width: 50px;
 }
 
 
-@media (max-width: 1025px){
-  #section-4{
-    height: 115vh;
+@media (max-width: 1023px){
 
-  }
-  .section4-virdhunagar-logo{
-    height: 115vh;
-  }
 
-  #section4-menu-7-3{
-    display: none;
+
+   #section-4-menu-1-1{
+  margin-top: 20px;
   }
 
-
-  #section4-menu-7{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  #section-4-menu-1-1-1{
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
   }
 
+  #section-4-menu-1-2{
+      margin-top: 20px;
+      }
+  
+      #section-4-menu-1-2-2{
+          width: 100%;
+          flex-direction: column;
+          align-items: center;
+      }
 
-  #section4-menu7-11-1{
-    display: none;
+   #section-4-menu-1-3{
+      margin-top: 20px;
+   }
+
+  #section-4-menu-1-3-1{
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
   }
 
-  #section4-menu7-11{
-    margin-top: 300px;
+  #section-4-menu-1-1-2{
+      display: none;
   }
 
-  #section4-menu7-12-2{
-    display: none;
+  #section-4-menu-1-2-1{
+      display: none;
   }
 
-  #section4-menu7-12{
-    margin-top: 550px;
-  }
-
-}
- 
-
-@media (max-width: 1001px){
-  #section-4{
-    height: 145vh;
-  }
-
-  .section4-virdhunagar-logo{
-    height: 145vh;
-  }
-
-  #section4-menu7-11{
-    margin-top: 340px;
-  }
-
-  #section4-menu7-12{
-    margin-top: 600px;
+  #section-4-menu-1-3-2{
+      display: none;
   }
 }
 
-
-
-@media (max-width: 700px){
-  #section4-menu-7-4{
-    width: 600px;
-}
-
-#section4-menu-7-5{
-    width: 600px;
-}
-#section4-menu-7-6{
-  width: 600px;
-}
-
-#section4-menu7-11-2-1{
-  width: 600px;
-}
-
-#section4-menu7-11-2-2{
-  width: 600px;
-}
-
-#section4-menu7-11-2-3{
-  width: 600px;
-}
-
-#section4-menu7-12-1-1{
-  width: 600px;
-}
-
-#section4-menu7-12-1-2{
-  width: 600px;
-}
-
-#section4-menu7-12-1-3{
-  width: 600px;
-}
-
-#section4-menu7-12-1-3-1{
-width: 100%;
-}
-
-}
-
-
-@media (max-width: 640px){
-  #section4-menu-7-4{
-    width: 500px;
-}
-
-#section4-menu-7-5{
-    width: 500px;
-}
-#section4-menu-7-6{
-  width: 500px;
-}
-
-#section4-menu7-11-2-1{
-  width: 500px;
-}
-
-#section4-menu7-11-2-2{
-  width: 500px;
-}
-
-#section4-menu7-11-2-3{
-  width: 500px;
-}
-
-#section4-menu7-12-1-1{
-  width: 500px;
-}
-
-#section4-menu7-12-1-2{
-  width: 500px;
-}
-
-#section4-menu7-12-1-3{
-  width: 500px;
-}
-
-}
-
-
-@media (max-width: 540px){
-  #section-4{
-    height: 160vh;
-  }
-
-  .section4-virdhunagar-logo{
-    height: 160vh;
-  }
-
-
-  #section4-menu-7-4{
-    width: 400px;
-}
-
-#section4-menu-7-5{
-    width: 400px;
-}
-#section4-menu-7-6{
-  width: 400px;
-}
-
-#section4-menu7-11-2-1{
-  width: 400px;
-}
-
-#section4-menu7-11-2-2{
-  width: 400px;
-}
-
-#section4-menu7-11-2-3{
-  width: 400px;
-}
-
-
-#section4-menu7-12-1-1{
-  width: 400px;
-}
-
-#section4-menu7-12-1-2{
-  width: 400px;
-}
-
-#section4-menu7-12-1-3{
-  width: 400px;
-}
-
-#section4-menu7-11{
-  margin-top: 370px;
-}
-
-#section4-menu7-12{
-  margin-top: 650px;
-}
-
-}
-
-
-@media (max-width: 440px){
-
-  #section-4{
-    height: 140vh;
-  }
-
-  .section4-virdhunagar-logo{
-    height: 140vh;
-  }
-
-  #section4-menu-7-4{
-    width: 300px;
-}
-
-#section4-menu-7-5{
-    width: 300px;
-}
-#section4-menu-7-6{
-  width: 300px;
-}
-
-#section5-menu-7-10{
-  gap: 70px;
-}
-
-#section4-menu7-11-2-3-1-2{
-  gap: 90px;
-}
-
-
-
-#section4-menu7-11-2-1{
-  width: 300px;
-}
-
-#section4-menu7-11-2-2{
-  width: 300px;
-}
-
-#section4-menu7-11-2-3{
-  width: 300px;
-}
-
-
-
-#section4-menu-h6-1{
-   font-size: 20px;
-}
-
-#section4-menu-h6-2{
-  font-size: 20px;
-}
-
-
-
-#section4-menu-7-p1{
-  font-size: 17px;
-}
-#section4-menu-7-p2{
-  font-size: 17px;
-}
-
-#section4-menu7-11{
-  margin-top: 280px;
-}
-
-#section4-menu7-11-2-1-1-1-h6-1{
-  font-size: 20px;
-}
-
-#section4-menu7-11-2-1-1-2-h6-2{
-  font-size: 20px;
-}
-
-#section4-menu7-11-2-3-1-1-p-1{
-  font-size: 17px;
-}
-
-#section4-menu7-11-2-3-1-1-p-2{
-  font-size: 17px;
-}
-
-
-#section4-menu7-12-1-1{
-  width: 300px;
-}
-
-
-
-#section4-menu7-12{
-  margin-top: 510px;
-}
-
-#section4-menu7-12-1-1-1-h6-1{
-  font-size: 20px;
-}
-
-#section4-menu7-12-1-1-2-h6-2{
-  font-size: 20px;
-}
-
-
-#section4-menu7-12-1-2{
-  width: 300px;
-}
-
-#section4-menu7-12-1-3-1-1-p-1{
-  font-size: 17px;
-}
-
-#section4-menu7-12-1-3-1-2-p-1{
-  font-size: 17px;
-}
-
-#section4-menu7-12-1-3-1-2-p-2{
-  font-size: 17px;
-}
-
-#section4-menu7-12-1-3{
-width: 300px;
-}
-
-#section4-menu7-12-1-3-1-2{
-  gap: 60px;
-}
-
-}
 
 @media (max-width: 426px){
-  #virudhunagar-logo{
-    font-size: 40px;
+
+  /* Part 1 */
+
+  #section-4-menu-1-1-1-1-1-h6-1{
+      font-size: 22px;  
+  }
+
+  #section-4-menu-1-1-1-1-2-h6-1{
+      font-size: 22px; 
+  }
+
+  #section-4-menu-1-1-1-3-1-1-p-1{
+      font-size: 18px;
+  }
+
+  #section-4-menu-1-1-1-3-1-2-p-1{
+      font-size: 18px;
+  }
+
+  /* Part 2 */
+  #section-4-menu-1-2-2-1-1-h6-1{
+      font-size: 22px; 
+  }
+
+  #section-4-menu-1-2-2-1-2-h6-1{
+      font-size: 22px; 
+  }
+
+  #section-4-menu-1-2-2-3-1-1-p-1{
+      font-size: 18px;
+  }
+
+  #section-4-menu-1-2-2-3-1-2{
+      gap: 75px;
+  }
+
+  #section-4-menu-1-2-2-3-1-2-p-1{
+      font-size: 18px;
+  }
+
+  /* Part 3 */
+
+  #section-4-menu-1-3-1-1-1-h6-1{
+      font-size: 22px;
+  }
+
+  #section-4-menu-1-3-1-1-2-h6-1{
+      font-size: 22px;
+  }
+
+  #section-4-menu-1-3-1-3-1-1-p-1{
+      font-size: 18px;
+  }
+
+  #section-4-menu-1-3-1-3-1-2-p-1{
+      font-size: 18px;
+      width: 75px;
+  }
+
+  #section-4-menu-1-3-1-3-1-2-p-2{
+      font-size: 18px;
   }
 }
 
-@media (max-width: 360px){
-  #section-4{
-    height: 120vh;
-  }
-
-  .section4-virdhunagar-logo{
-    height: 120vh;
-  }
-
-
-  #section4-menu-h6-1{
-    font-size: 18px;
- }
- 
- #section4-menu-h6-2{
-   font-size: 18px;
- }
- 
- #section4-menu-7-p1{
-   font-size: 14px;
- }
- #section4-menu-7-p2{
-   font-size: 14px;
- }
-
- #section4-menu7-11{
-  margin-top: 220px;
-}
-
- #section4-menu7-11-2-1-1-1-h6-1{
-  font-size: 18px;
-}
-
-#section4-menu7-11-2-1-1-2-h6-2{
-  font-size: 18px;
-}
-
-#section4-menu7-11-2-3-1-1-p-1{
-  font-size: 14px;
-}
-
-#section4-menu7-11-2-3-1-1-p-2{
-  font-size: 14px;
-}
-
-
-#section4-menu7-12-1-1-1-h6-1{
-  font-size: 18px;
-}
-
-#section4-menu7-12-1-1-2-h6-2{
-  font-size: 18px;
-}
-
-#section4-menu7-12-1-3-1-2{
-  gap: 50px;
-}
-
-#section4-menu7-12{
-  margin-top: 440px;
-}
-
-
-#section4-menu7-12-1-3-1-1-p-1{
-  font-size: 14px;
-}
-
-#section4-menu7-12-1-3-1-2-p-1{
-  font-size: 14px;
-}  
-
-#section4-menu7-12-1-3-1-2-p-2{
-  font-size: 14px;
-}  
-
-}
 
 
 
@@ -1971,6 +1655,8 @@ gap: 45px;
 }
 
 }
+
+
 
 
 @media(max-width: 321px){ 

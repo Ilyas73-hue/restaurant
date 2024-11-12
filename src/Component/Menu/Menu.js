@@ -1058,128 +1058,125 @@ const chicken_2 = [{
           </div>
         </div>
 
-        {/* Section4 */}
-        <section id="section-4">
-        <div className="section4-virdhunagar-logo">
-          <div className="virudhunagar-logo-overall-class">
-              <h3 id="virudhunagar-logo">Virudhunagar Chettinad Restaurant</h3>
+           {/* Section4 */}
+           <section id="section-4">
+
+<div id="section4-virdhunagar-logo">
+  <div id="virudhunagar-logo-overall-class">
+      <h3 id="virudhunagar-logo">Virudhunagar Chettinad Restaurant</h3>
+  </div>
+  </div>
+  
+  <div className='container' id='section-4-menu-1'>
+       <div id="section-4-menu-1-1">
+          <div id="section-4-menu-1-1-1">
+          <div id='section-4-menu-1-1-1-1'>
+              <div id="section-4-menu-1-1-1-1-1">
+              <h6 id='section-4-menu-1-1-1-1-1-h6-1'>SEA FOOD</h6>
+              </div>
+              <div id="section-4-menu-1-1-1-1-2">
+                <h6 id='section-4-menu-1-1-1-1-2-h6-1'>FRY</h6>
+                <h6 id='section-4-menu-1-1-1-1-2-h6-1'>/</h6>
+                <h6 id='section-4-menu-1-1-1-1-2-h6-1'>GRAVY</h6>
+              </div>
           </div>
+          <div id='section-4-menu-1-1-1-2'>
+
           </div>
-          
-          <div className="container" id="section4-menu-7">
-          <div id="section4-menu7-1">
-                     <div id="section4-menu-7-2">
-                       <div id="section4-menu-7-4">
-                          <div id="section4-menu-7-7">
-                            <h6 id="section4-menu-h6-1">SEA FOOD</h6>
-                          </div>
-                          <div id="section4-menu-7-8">
-                             <h6 id="section4-menu-h6-2">Fry</h6>
-                             <h6 id="section4-menu-h6-2">/</h6>
-                             <h6 id="section4-menu-h6-2">GRAVY</h6>
-                          </div>
-                       </div>
-                       <div id="section4-menu-7-5">
-
-                       </div>
-                       {
-                        sea_food.map((item) => (
-                          <div id="section4-menu-7-6">
-                          <div id="section4-menu-7-9">
-                              <p id="section4-menu-7-p1">{item.name}</p>
-                          </div>
-                          <div id="section5-menu-7-10">
-                             <p id="section4-menu-7-p2">{item.fry_price}</p>
-                             <p id="section4-menu-7-p2">{item.gravy}</p>
-                          </div>
-                       </div>
-                        ))
-                       }
-
-                     </div>
-                     <div id="section4-menu-7-3">
-                       <img id="section4-menu-7-img"  src={sea} alt={sea} />
-                     </div>
-                   </div> 
-                
-                {/* Part 2 */}
-
-                <div id="section4-menu7-11">
-                   <div id="section4-menu7-11-1">
-                     <img src={mutton1} alt={mutton1} />
-                   </div>
-                   <div id="section4-menu7-11-2">
-                     <div id="section4-menu7-11-2-1">
-                      <div id="section4-menu7-11-2-1-1">
-                      <h6 id="section4-menu7-11-2-1-1-1-h6-1">Mutton</h6>
-                      </div>
-                      <div id="section4-menu7-11-2-1-2">
-                      <h6 id="section4-menu7-11-2-1-1-2-h6-2">Fry</h6>
-                      <h6 id="section4-menu7-11-2-1-1-2-h6-2">/</h6>
-                      <h6 id="section4-menu7-11-2-1-1-2-h6-2">GRAVY</h6>
-                      </div>
-                     </div>
-                     <div id="section4-menu7-11-2-2">
-
-                     </div>
-                     <div id="section4-menu7-11-2-3">
-                        {
-                          mutton.map((item) => (
-                            <div id="section4-menu7-11-2-3-1">
-                              <div id="section4-menu7-11-2-3-1-1">
-                                <p id="section4-menu7-11-2-3-1-1-p-1">{item.name}</p>
-                              </div>
-                              <div id="section4-menu7-11-2-3-1-2">
-                              <p id="section4-menu7-11-2-3-1-1-p-2">{item.fry_price}</p>
-                              <p id="section4-menu7-11-2-3-1-1-p-2">{item.gravy}</p>
-                              </div>
-                            </div>
-                          ))
-                        }
-                     </div>
-                   </div>
-                </div>
-
-              {/* Part 3 */}
-
-                <div id="section4-menu7-12">
-                    <div id="section4-menu7-12-1">
-                        <div id='section4-menu7-12-1-1'>
-                             <div id='section4-menu7-12-1-1-1'>
-                             <h6 id="section4-menu7-12-1-1-1-h6-1">CHICKEN</h6>
-                             </div>
-                             <div id='section4-menu7-12-1-1-2'>
-                             <h6 id="section4-menu7-12-1-1-2-h6-2">Fry</h6>
-                      <h6 id="section4-menu7-12-1-1-2-h6-2">/</h6>
-                      <h6 id="section4-menu7-12-1-1-2-h6-2">GRAVY</h6>
-                              </div>
-                        </div>
-                        <div id='section4-menu7-12-1-2'>
-                          
-                          </div>
-                          <div id='section4-menu7-12-1-3'>
-                          {
-                          chicken.map((item) => (
-                            <div id="section4-menu7-12-1-3-1">
-                              <div id="section4-menu7-12-1-3-1-1">
-                                <p id="section4-menu7-12-1-3-1-1-p-1">{item.name}</p>
-                              </div>
-                              <div id="section4-menu7-12-1-3-1-2">
-                              <p id="section4-menu7-12-1-3-1-2-p-1">{item.fry}</p>
-                              <p id="section4-menu7-12-1-3-1-2-p-2">{item.gravy}</p>
-                              </div>
-                            </div>
-                          ))
-                        }
-                          </div>
+          <div id='section-4-menu-1-1-1-3'>
+            {
+                sea_food.map((item) => (
+                    <div id='section-4-menu-1-1-1-3-1'>
+                    <div id='section-4-menu-1-1-1-3-1-1'>
+                       <p id='section-4-menu-1-1-1-3-1-1-p-1'>{item.name}</p>
                     </div>
-                    <div id="section4-menu7-12-2">
-                    <img id="section4-menu7-12-2-img" src={chicken_tandoori} alt={chicken_tandoori} />
+                    <div id='section-4-menu-1-1-1-3-1-2'>
+                    <p id='section-4-menu-1-1-1-3-1-2-p-1'>{item.fry_price}</p>
+                    <p id='section-4-menu-1-1-1-3-1-2-p-1'>{item.gravy}</p>
                     </div>
-                </div>
+                  </div>
+                ))
+            }
+          </div>
+          </div>
+          <div id="section-4-menu-1-1-2">
+           <img src={sea} alt={sea} />
+          </div>
+       </div>
+       <div id="section-4-menu-1-2">
+          <div id="section-4-menu-1-2-1">
+            <img src={mutton1} alt={mutton1} />
+          </div>
+          <div id="section-4-menu-1-2-2">
+          <div id='section-4-menu-1-2-2-1'>
+              <div id="section-4-menu-1-2-2-1-1">
+              <h6 id='section-4-menu-1-2-2-1-1-h6-1'>MUTTON</h6>
+              </div>
+              <div id="section-4-menu-1-2-2-1-2">
+                <h6 id='section-4-menu-1-2-2-1-2-h6-1'>FRY</h6>
+                <h6 id='section-4-menu-1-2-2-1-2-h6-1'>/</h6>
+                <h6 id='section-4-menu-1-2-2-1-2-h6-1'>GRAVY</h6>
+              </div>
+          </div>
+          <div id='section-4-menu-1-2-2-2'>
 
           </div>
-        </section>
+          <div id='section-4-menu-1-2-2-3'>
+            {
+                mutton.map((item) => (
+                    <div id='section-4-menu-1-2-2-3-1'>
+                    <div id='section-4-menu-1-2-2-3-1-1'>
+                       <p id='section-4-menu-1-2-2-3-1-1-p-1'>{item.name}</p>
+                    </div>
+                    <div id='section-4-menu-1-2-2-3-1-2'>
+                    <p id='section-4-menu-1-2-2-3-1-2-p-1'>{item.fry_price}</p>
+                    <p id='section-4-menu-1-2-2-3-1-2-p-1'>{item.gravy}</p>
+                    </div>
+                  </div>
+                ))
+            }
+          </div>
+          </div>
+       </div>
+
+       <div id="section-4-menu-1-3">
+         <div id="section-4-menu-1-3-1">
+            <div id="section-4-menu-1-3-1-1">
+             <div id="section-4-menu-1-3-1-1-1">
+              <h6 id="section-4-menu-1-3-1-1-1-h6-1">CHICKEN</h6>
+             </div>
+             <div id="section-4-menu-1-3-1-1-2">
+             <h6 id='section-4-menu-1-3-1-1-2-h6-1'>FRY</h6>
+                <h6 id='section-4-menu-1-3-1-1-2-h6-1'>/</h6>
+                <h6 id='section-4-menu-1-3-1-1-2-h6-1'>GRAVY</h6>
+             </div>
+            </div>
+            <div id="section-4-menu-1-3-1-2">
+              
+            </div>
+            <div id="section-4-menu-1-3-1-3">
+              {
+               chicken.map((item) => (
+                <div id="section-4-menu-1-3-1-3-1">
+                <div id="section-4-menu-1-3-1-3-1-1">
+                  <p id="section-4-menu-1-3-1-3-1-1-p-1">{item.name}</p>
+                </div>
+                <div id="section-4-menu-1-3-1-3-1-2">
+                  <p id="section-4-menu-1-3-1-3-1-2-p-1">{item.fry}</p>
+                  <p id="section-4-menu-1-3-1-3-1-2-p-2">{item.gravy}</p>
+                </div>
+                </div>
+               ))
+              }
+            </div>
+         </div>
+         <div id="section-4-menu-1-3-2">
+          <img src={chicken_tandoori} alt={chicken_tandoori} />
+          </div>
+       </div>
+  </div>
+
+</section>
      
 
         {/* Section 5 */}
